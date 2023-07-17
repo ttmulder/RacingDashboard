@@ -1,0 +1,161 @@
+.column {
+    float: left;
+    width: 33%;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #313639;
+}
+
+.header {
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+.time {
+    height: 50px;
+    color: white;
+    text-align: center;
+}
+
+.icon{
+    width: 400px;
+    height: 130px;
+}
+
+.clickable-image{
+    width: 400px;
+    height: 130px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    display: block;
+}
+
+.clickable-image:hover{
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.clickable-image:active,
+.clickable-image:focus{
+    background-color: transparent;
+    border-color: transparent;
+    color: transparent;
+    box-shadow: none;
+}
+
+.parent{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.info{
+    color: white;
+    height: 50px;
+    text-align: center;
+}
+
+body{
+    background-color: #313639;
+}
+
+.map{
+    width: 300px;
+    height: 300px;
+    rotate: 90deg;
+    transform: scaleY(-1);
+    cursor: pointer;
+    align-self: center;
+}
+
+.button{
+    background-color: transparent;
+    border-color: transparent;
+    color: transparent;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button:hover{
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.button:active,
+.button:focus{
+    background-color: transparent;
+    border-color: transparent;
+    color: transparent;
+    box-shadow: none;
+}
+
+.ml-auto {
+    background-color: transparent;
+    border: none;
+    color: transparent;
+    height: 100px;
+    width: 100px;
+}
+
+.ml-auto:hover{
+    background-color: transparent;
+    color: transparent;
+    text-emphasis-color: transparent;
+    border: none;
+}
+
+.transparent-modal .modal-content {
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+}
+
+.transparent-modal .modal-dialog {
+  margin: 0;
+}
+
+.transparent-modal .modal-content .modal-header,
+.transparent-modal .modal-content .modal-body{
+  background-color: black;
+    opacity: 100%;
+  color: white;
+    width: fit-content;
+    height: fit-content;
+    align-self: center;
+}
+
+.transparent-modal .modal-content .modal-footer {
+    background-color: transparent;
+    border: none;
+}
+
+.map-fit{
+    max-width: 100%;
+    max-height: 100%;
+    rotate: 90deg;
+    transform: scaleY(-1);
+    cursor: pointer;
+}
+
+.modal-content-image{
+    width: 1000px;
+    height: 500px;
+}
+
+.map_parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+}
+
+.image-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
